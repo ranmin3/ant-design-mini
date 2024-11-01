@@ -114,9 +114,9 @@ npm i antd-mini --save
 + │   ├── wxcomponents
 + │   │   ├── node_modules
 + │   │   │   ├── antd-mini
-+ │   │   │   miniprogram_npm
-+ │   │   │   │   ├── antd-mini
-+ │   │   │   │   │   ├── Button
++ │   │   ├── miniprogram_npm
++ │   │   │   ├── antd-mini
++ │   │   │   │   ├── Button
 ```
 
 修改 pages.json，在 `page.style` 配置下新增 `usingComponents`。引用 wxcomponents/miniprogram_npm 下的组件时，配置同样要注意路径大小写和实际组件保持一致。
